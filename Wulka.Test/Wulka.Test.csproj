@@ -83,10 +83,17 @@
     <Compile Include="Domain\Table.cs" />
     <Compile Include="Domain\Upholstry.cs" />
     <Compile Include="Interfaces\ITest.cs" />
+    <Compile Include="Interfaces\ITestSentry.cs" />
     <Compile Include="Parts\GraphWriter.cs" />
     <Compile Include="Parts\Hydrator.cs" />
     <Compile Include="ProviderTestFixture.cs" />
-    <Compile Include="ServiceHostFactoryTestFixture.cs" />
+    <Compile Include="SentryHostFactoryTestFixture.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Agents\TestAgent.cs" />
+    <Compile Include="Agents\TestPortal.cs" />
+    <Compile Include="Services\TestSentry.cs" />
+    <Compile Include="Interfaces\TestServiceConst.cs" />
     <Compile Include="Workers\TestProviderWorker.cs" />
     <Compile Include="Workers\TestProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,6 +116,7 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
