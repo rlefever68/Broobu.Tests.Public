@@ -56,8 +56,11 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="Wulka">
-      <HintPath>..\..\Wulka.SDK\Wulka.dll</HintPath>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activation" />
+    <Reference Include="Wulka, Version=14.10.9.142, Culture=neutral, PublicKeyToken=01dd9af6e7fa5427, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Release\Wulka.SDK\Wulka.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Choose>
@@ -83,6 +86,7 @@
     <Compile Include="Parts\GraphWriter.cs" />
     <Compile Include="Parts\Hydrator.cs" />
     <Compile Include="ProviderTestFixture.cs" />
+    <Compile Include="ServiceHostFactoryTestFixture.cs" />
     <Compile Include="Workers\TestProviderWorker.cs" />
     <Compile Include="Workers\TestProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
