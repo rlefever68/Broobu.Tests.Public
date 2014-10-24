@@ -1,7 +1,7 @@
 ﻿using Wulka.Networking.Wcf;
 using Wulka.Test.Interfaces;
 
-namespace Wulka.Test
+namespace Wulka.Test.Agents
 {
     class TestAgent : DiscoProxy<ITestSentry>, ITestSentry
     {

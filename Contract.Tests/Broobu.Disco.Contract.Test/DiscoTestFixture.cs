@@ -13,6 +13,7 @@
 // ***********************************************************************
 
 using System;
+using NLog;
 using Wulka.Agent;
 using Wulka.Domain;
 using Wulka.Exceptions;
@@ -28,6 +29,12 @@ namespace Broobu.Disco.Contract.Test
     [TestClass]
     public class DiscoTestFixture : IDisco
     {
+
+
+
+       
+
+
 
 
         [TestMethod]

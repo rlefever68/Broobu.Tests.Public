@@ -1,6 +1,6 @@
 ﻿using Wulka.Test.Interfaces;
 
-namespace Wulka.Test
+namespace Wulka.Test.Agents
 {
     public class TestPortal
     {
